@@ -1,0 +1,173 @@
+Got it 👍
+You want a **normal, clean organization** of everything (semantic tags + `<address>`) — **not explanation scattered**, but **properly arranged like a study file / note / portfolio plan**.
+
+Below is a **well-organized, simple structure** you can **follow or revise**, easy to remember and interview-ready.
+
+---
+
+# 📁 HTML Portfolio – Organized Structure (Semantic)
+
+## 1️⃣ Overall Page Structure
+
+Every **proper HTML page** should mentally follow this order:
+
+```
+Header  → Identity
+Nav     → Navigation
+Main    → Actual content
+Footer  → Ending info
+```
+
+---
+
+## 2️⃣ Semantic Tag Organization (Clean & Normal)
+
+### 🔹 `<header>` — Identity Section
+
+**Purpose:**
+Who you are
+
+**Contains:**
+
+* Your name
+* Your role (CSE Student)
+* Short intro line
+
+**Rule:**
+❌ Don’t put all content here
+✔ Only intro information
+
+---
+
+### 🔹 `<nav>` — Navigation Section
+
+**Purpose:**
+Where users can go
+
+**Contains:**
+
+* Links to sections/pages
+
+  * Summary
+  * Education
+  * Skills
+  * Contact
+
+**Why important:**
+Screen readers recognize it as navigation
+
+---
+
+### 🔹 `<main>` — Main Content (ONLY ONE)
+
+**Purpose:**
+The real content of the page
+
+**Contains:**
+
+* All important sections
+* No header, nav, or footer inside
+
+---
+
+## 3️⃣ Content Inside `<main>`
+
+### 🔹 `<section>` — Topic Group
+
+**Purpose:**
+Group related content
+
+**Examples:**
+
+* Summary
+* Skills
+* Projects
+* Activities
+
+**Rule:**
+✔ Every section must have a heading
+❌ No heading = bad HTML
+
+---
+
+### 🔹 `<article>` — Independent Item
+
+**Purpose:**
+A single, reusable piece of content
+
+**Examples:**
+
+* One degree
+* One project
+* One blog post
+
+**Rule:**
+✔ Can stand alone
+✔ Can exist inside a section
+
+---
+
+## 4️⃣ Contact Information (Important)
+
+### 🔹 `<address>` — Contact Section
+
+**Purpose:**
+Contact details of the author
+
+**Contains ONLY:**
+
+* Email
+* Phone
+* GitHub
+* Social links
+
+**Should NOT contain:**
+
+* Skills
+* Education
+* Random text
+
+**Why it matters:**
+
+* Accessibility
+* SEO
+* Professional HTML
+
+---
+
+## 5️⃣ `<footer>` — Ending Section
+
+**Purpose:**
+Wrap-up information
+
+**Contains:**
+
+* Copyright
+* Author info
+* Extra links (optional)
+
+**Can be:**
+
+* At page bottom
+* At section bottom
+
+---
+
+## 6️⃣ Final Mental Model (Very Important)
+
+```
+<header>   → Who am I?
+<nav>      → Where can you go?
+<main>
+   <section> → One topic
+      <article> → One item
+   </section>
+   <section>
+      <address> → Contact info
+   </section>
+</main>
+<footer>   → End info
+```
+
+---
+
