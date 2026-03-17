@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container {
+      display:grid ;
+      grid-template-columns:1fr 1fr ;
+      grid-template-rows: 100px 200px 200px;
+      gap: 30px;
+      background-color: brown;
+    }
+
+    .first {
+      grid-column: span 2;
+      background-color: blue;
+    }
+
+    .card {
+      grid-column: span;
+      background-color: blue;
+    }
+    h1{
+      text-align: center;
+    }
+    .grid{
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="grid">CSS Grid</h1>
+  <div class="grid-container">
+    <div class="first card"><h1>first card</h1></div>
+
+    <div class="card"><h1>2nd card</h1></div>
+    <div class="card"><h1>third card</h1></div>
+    <div class="card"><h1>4th card</h1></div>
+    <div class="card"><h1>5th card</h1></div>
+  </div>
+
+</body>
+
+</html>

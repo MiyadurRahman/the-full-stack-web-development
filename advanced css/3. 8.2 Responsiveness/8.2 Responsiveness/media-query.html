@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>media query</title>
+  <style>
+    div {
+      background-color: rebeccapurple;
+      height:100px;
+      width:100px;
+      display: inline-block;
+     
+     
+    }
+
+    @media (max-width: 500px) {
+
+      /* CSS for screens below or equal to 600px wide */
+      div {
+        height: 200px;
+        width: 200px;
+      }
+    
+    }
+    .nothing{
+      background-color: brown;
+      display: block;
+      
+    }
+    .nothing1{
+      background-color: rgb(43, 226, 46);
+    
+      float: right;
+      text-align: center;
+
+
+    }
+    .father{
+      background-color: yellow    }
+    .father > h3{
+      color: red;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Media query</h1>
+  <div></div>
+  <div class="nothings father">
+    <h3>nothing1</h3>
+    <div class="nothing1">
+    
+    </div>
+</div>
+  <div class="nothing"></div>
+  
+</body>
+
+</html>
